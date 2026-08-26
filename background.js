@@ -1,4 +1,4 @@
-// Helper to encode Unicode string to Base64 in JavaScript
+// Helper to encode Unicode string to Base64 in JS
 function encodeBase64(str) {
     const bytes = new TextEncoder().encode(str);
     const binString = Array.from(bytes, (byte) =>
